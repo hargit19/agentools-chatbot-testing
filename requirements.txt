@@ -5,5 +5,4 @@ python-dotenv==1.0.1
 langchain==0.3.19
 langchain-openai==0.3.7
 langchain-pinecone==0.2.3
-pinecone==6.0.1
 
