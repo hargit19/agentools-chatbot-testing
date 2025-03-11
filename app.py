@@ -18,7 +18,7 @@ app = FastAPI()
 # ✅ CORS Configuration (Fixes OPTIONS Request Issues)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Allow only frontend origin
+    allow_origins=["https://agentools-chatbot-testing-frontend.vercel.app"],  # Allow only frontend origin
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],  # Explicitly allow these methods
     allow_headers=["Content-Type", "Authorization"],
